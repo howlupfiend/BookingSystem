@@ -12,9 +12,9 @@ public:
 };
 
 User::User() {
-	firstName = "john";
-	lastName = "appleseed";
-	address = "10 test street";
+	firstName = "";
+	lastName = "";
+	address = "";
 }
 
 User::~User() {

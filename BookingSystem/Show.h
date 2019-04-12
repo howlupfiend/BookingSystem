@@ -13,8 +13,7 @@ class Show
 public:
 	Show();
 	~Show();
-	Show selectShow(string &showName, string &showDate, string &showTime);
-	string selectTime();
+	Show selectShow(string &showName, string &showDate, string &showTime);;
 	void getShows(const vector<Show> &listOfShows);
 	vector<Show> defineShows();
 	string showName, showDate, showTime;	
@@ -35,7 +34,6 @@ Show::~Show()
 Show Show::selectShow(string &showName, string &showDate, string &showTime)
 {
 	int showInput;
-	char terminator;
 	const vector<Show> listOfShows = defineShows();
 	//TODO validation of input.
 	do {

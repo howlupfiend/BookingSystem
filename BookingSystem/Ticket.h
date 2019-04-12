@@ -79,7 +79,7 @@ void Ticket::displayTicket(User user,Show show, int seatQuantity) {
 	cout << "Date: " << show.showDate << endl;
 	cout << "Time: " << show.showTime << endl;
 	cout << "----- Tickets -----" << endl;
-	cout << "Number of seats brough: " << seatQuantity << endl;
+	cout << "Number of seats brought: " << seatQuantity << endl;
 	cout << "Total price: " << (char)156 << price << endl;
 	cout << "-------------------" << endl;
 
